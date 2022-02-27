@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>New-Tech Computers Website Landing Page</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <section style="background-color: rgb(114, 174, 241);">
+            <div class="circle"></div>
+            <header>
+                <a href="#"><img src="logo.jpg" class="logo"></a>
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Our Menu</Menu></a></li>
+                    <li><a href="#">What's New</a></li>
+                    <li><a href="#">Contact</a></li>
+
+                </ul>
+            </header>
+            <div class="content">
+                <div class="textBox">
+                    <h2><span>New-Tech Computers </span><br>Coding Classes</h2>
+                    <p>In this institute we will teach Programming Languages and computer hardware.
+                         Best online personal training software developer Basic Computer Course Vacancies
+                          in UK. Know about relevant job vacancies and ease your job search. </p>
+                    <a href="#">Learn More</a>
+                </div>
+                <div class="imgBox">
+                    <img src="pc.png" class="McDonalds">
+                </div>
+            </div>
+            <ul class="thumb">
+                <li><img src="c.png" onclick="imgSlider('c.png')"></li>
+                    <li><img src="cplus.png" onclick="imgSlider('cplus.png')"></li>
+                        <li><img src="java.png" onclick="imgSlider('java.png')"></li>
+            </ul>
+            <ul class="sci">
+                <li><a href="#"><img src="Facebook.png"></a></li>
+                <li><a href="#"><img src="instagram.png"></a></li>
+                <li><a href="#"><img src="Twitter.png"></a></li>
+            </ul>
+        </section>
+        <script type="text/javascript">
+            function imgSlider(anything){
+                document.querySelector('.McDonalds').src = anything;
+            }
+        </script>
+    </body>
+</html>
